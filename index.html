@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pong</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      #controls {
+        margin-bottom: 10px;
+      }
+      canvas {
+        border: 10px solid black;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="controls">
+      <label for="difficulty">AI Difficulty:</label>
+      <input type="range" id="difficulty" min="1" max="10" value="5" />
+      <span id="difficultyValue">5</span>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
